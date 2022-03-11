@@ -1,21 +1,18 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <title>Click Counter</title>
-    </head>
+<head>
+    <title>Space Clicker</title>
+</head>
 
-    <body>
-        <script type="text/javascript">
-        var clicks = 0;
-            function theclick() {
-            clicks += 1;
-            document.getElementById(counter).innerHTML = clicks;
-        }
-        </script>
+<body>
+    <script type="text/javascript">
 
-        <h6>click the button</h6>
-        <p id="counter"></p>
-        <button class="clicky" onClick="theclick()">Click Counter</button>
-    </body>
+    var clicks = 0;
+    function hello() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+    };
+    </script>
+    <button type="button" onclick="hello()">Click me</button>
+    <p>Clicks: <a id="clicks">0</a></p>
 
-</html>
+</body></html>
