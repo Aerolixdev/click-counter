@@ -3,19 +3,16 @@
     <head>
         <title>Click Counter</title>
     </head>
-    <body onload="load()">
+    <body>
+        <script type="text/javascript">
+        clicks = 0
+        function click() {
+            clicks += 1
+            document.getElementById(counter).innerHTML = clicks
+        }
+        </script>
         <h6>click the button</h6>
         <p id="counter"></p>
-        <button class="clicky" onclick="click()">Click Counter</button>
+        <button class="clicky" onClick="click()">Click Counter</button>
     </body>
 </html>
-<script>
-    function click() {
-        var clicks = clicks += 1;
-        document.getElementById("counter").innerHTML = clicks;
-    }
-
-    function load() {
-        var clicks = 0
-    }
-</script>
