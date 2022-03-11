@@ -1,0 +1,20 @@
+P {
+    text-align: center;
+    padding: 10px;
+    border: solid red;
+}
+
+* {
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 500;
+}
+
+.cheese {
+size: 155px;
+background-color: blueviolet;
+color: black;
+}
+
+body {
+    background-color: black;
+}
