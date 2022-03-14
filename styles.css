@@ -3,10 +3,11 @@ P {
     position: fixed;
     text-align: center;
     top: 100;
-    left: 650;
+    left: 625;
     font-size: x-large;
     border: solid blue;
     padding: 20px;
+    border-radius: 10px;
     
 }
 
