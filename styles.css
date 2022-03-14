@@ -1,6 +1,5 @@
 P {
     text-align: center;
-    border: solid red;
     color: white;
 }
 
@@ -17,6 +16,10 @@ border-radius: 25px;
 width: 250px;
 height: 175px;
 text-align: center;
+position: fixed;
+top: 50%;
+left: 50%;
+font-size: large;
 
 }
 
