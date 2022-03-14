@@ -2,6 +2,7 @@ P {
     color: white;
     position: fixed;
     text-align: center;
+    
 }
 
 * {
@@ -16,11 +17,6 @@ color: black;
 border-radius: 25px;
 width: 250px;
 height: 175px;
-text-align: center;
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 font-size:x-large;
 border: solid red;
 
@@ -29,4 +25,11 @@ border: solid red;
 
 body {
     background-color: black;
+}
+.coke {
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
